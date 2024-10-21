@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 250px;
+  gap: 20px;
+  padding: 20px;
+}
+
+.main-content {
+  background-color: #db4545;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.sidebar {
+  background-color: #e0e0e0;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
